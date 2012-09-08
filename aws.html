@@ -1,0 +1,297 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Welcome to Amazon Web Service Cloud</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<!-- 
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		 -->
+		
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Amazon Web Service Cloud</h1>
+					<h3>Web developer fall in love the Cloud</h3>
+					<br/>
+					<p><a href="mailto:khanh.tran@glandoresystems.com">khanh.tran@glandoresystems.com</a>/ <a href="http://twitter.com/khanhtran">@khanhtran</a></p>
+				</section>
+				
+				<section>
+					<h2>Agenda</h2>
+					<ol>
+						<li><strong>Amazon S3</strong> - Scalable Storage in the Cloud</li>
+						<li><strong>Amazon EC2</strong> - Virtual Servers in the Cloud</li>
+						<li><strong>Amazon CloudFront</strong> - Global Content Distribution Network (CDN)</li>
+						<li><strong>Amazon Route 53</strong> - Scalable Domain Name System (DNS)</li>
+						<li><strong>Elastic Load Balancing</strong> - Auto Scaling</li>
+						<li><strong>Amazon ElastiCache</strong> - In-Memory Caching Service</li>
+						<li><strong>Amazon SES, SQS, SNS</strong> - Application services</li>
+						<li><strong>Question & Answers</strong></li>
+					</ol>
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you run the speaker notes server.
+					</aside>
+				</section>
+				
+				<section>
+					<p><q cite="http://www.slideshare.net/AmazonWebServices/building-powerful-web-applications-in-the-aws-cloud-a-love-story-jinesh-varia">Design for failure and nothing will fail</q></p>
+				</section>
+					
+				<!-- Aamazon S3 -->
+				<section>
+					<section>
+						<h2>Amazon S3</h2>
+						<a href="#/2/1" class="image">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Amazon S3 - Common Uses Cases</h2>
+						<img src="images/s3-usescases.png" alt="S3 common uses cases">
+					</section>
+					<section>
+						<h2>Amazon S3 - Why?</h2>
+						<ul>
+							<li class="fragment">Unlimited</li>
+							<li class="fragment">Highly scalable</li>
+							<li class="fragment">Reliable</li>
+							<li class="fragment">Secure</li>
+							<li class="fragment">Fast</li>
+							<li class="fragment">Inexpensive</li>
+							<li class="fragment">REST and SOAP APIs</li>
+						</ul>
+					</section>
+				</section>
+				
+				<!-- 
+				<p><q cite="">Implement Elasticity</q></p>
+				 -->
+				<section>
+					<h2>Scale Up!!?</h2>
+					<p class="fragment">
+						<img src="images/scaleup-chart.png" alt="Should we scale up?">
+					</p>
+				 </section>
+				
+				<section>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						Money, money, money <br/>
+						Must be funny<br/>
+						In the rich man's world
+					</blockquote>
+					<p><i><small>ABBA - Money Money Money</small></i>
+				 </section>
+
+				<section>
+					<h2>Scale Out</h2>
+					<p class="fragment">
+						<img src="images/scale-out-chart.png" alt="Should we scale up?">
+					</p>
+				 </section>
+
+				<!-- Amazon EC2 -->
+				<section>
+					<section>
+						<h2>Amazon EC2</h2>
+						<ul>
+							<li class="fragment">Elastic</li>
+							<li class="fragment">Completely Controlled</li>
+							<li class="fragment">Flexible, Inexpensive</li>
+							<li class="fragment">Reliable, Secure</li>
+							<li class="fragment">Designed for use with other Amazon Web Services</li>
+							<li class="fragment"><a href="#/2/1" class="image">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Amazon EC2 - Elastic, Completely Controlled</h2>
+						<ul>
+							<li class="fragment">Increase or decrease capacity within minutes, not hours or days.</li>
+							<li class="fragment">Web service APIs, automatically scale itself up and down depending on its needs.</li>
+							<li class="fragment">Root access to each one</li>
+							<li class="fragment">Have access to console output of EC instances</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Amazon EC2 - Flexible, Inexpensive</h2>
+						<ul>
+							<li class="fragment">Multiple instance types, operating systems, and software packages.</li>
+							<li class="fragment">Pay as you go</li>
+							<li class="fragment"><strong>On-Demand Instances</strong>- pay for compute capacity by the hour with no long-term commitments</li>
+							<li class="fragment"><strong>Reserved Instances</strong> - a low, one-time payment for each instance</li>
+							<li class="fragment"><strong>Spot Instances</strong> - to bid on unused Amazon EC2 capacity and run those instances for as long as their bid exceeds the current Spot Price</li>
+						</ul>
+					</section>
+					<section data-state="blackout">
+						<h2>Amazon EC2 - Reliable, Secure</h2>
+						<ul>
+							<li class="fragment">The Amazon EC2 Service Level Agreement commitment is 99.95% availability for each Amazon EC2 Region.</li>
+							<li class="fragment">APIs to configure firewall settings that control network access to and between groups of instances.</li>
+						</ul>
+					</section>
+					<section data-state="alert">
+						<h2>Elastic IPs</h2>
+						<ul>
+							<li class="fragment">Static IP addresses designed for dynamic cloud computing. </li>
+							<li class="fragment"><strong>Tips</strong> Smart use of Elastic IPs when upgrading new version of your app</li>
+							<li class="fragment"><img src="images/elastic-ips.png"/></li>
+						</ul>
+					</section>
+					<section data-state="soothe">
+						<h2>Auto scaling out EC2</h2>
+						<ul>
+							<li class="fragment">Amazon CloudWatch</li>
+							<li class="fragment">Auto Scaling</li>
+							<li class="fragment">Elastic Load Balancing </li>
+						</ul>
+					</section>
+					<section>
+						<h2>Implment Elasticity</h2>
+						<p>
+							<img src="images/elasticity.png"/>
+						</p>
+					</section>
+					<section>
+						<h2>Implment Elasticity (Cont.)</h2>
+						<p>
+							<img src="images/elasticity2.png"/>
+						</p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Amazon CloudFront - CDN</h2>
+						<ul>
+							<li class="fragment">Improves customer experience with faster page loads</li>
+							<li class="fragment">SEO benefits: site speed and load times are important to search engine ranking</li>
+							<li class="fragment">Mobile users on limted bandwidth connections get to your site faster</li>
+							<li class="fragment">Takes load off your web server</li>
+							<li class="fragment">Reduces costs</li>
+							<li class="fragment">Make your site more reliable and scalbale</li>
+							<li class="fragment">Great for software/path distribution</li>
+						</ul>
+					</section>
+				
+					<section>
+						<h3>Amazon CloudFront - How it work</h3>
+						<p><a href="https://d2868cy5s1ejmq.cloudfront.net/Cloudfront-Diagram_Website_Updated.jpeg" target="_blank">
+							<img src="https://d2868cy5s1ejmq.cloudfront.net/Cloudfront-Diagram_Website_Updated.jpeg"/>					
+						</a></p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Others Application Services</h2>
+						<p><img src="images/otherservices.png"/></p>
+					</section>
+					<section>
+						<h2>ElastiCache</h2>
+					</section>
+					<section>
+						<h2>SES - Sending Email Service</h2>
+					</section>
+					<section>
+						<h2>SQS - Simple Queue Service</h2>
+					</section>
+					<section>
+						<h2>SNS - Simple Notification Service</h2>
+					</section>
+				</section>
+				
+				<section>
+					<h1>Questions</h1>
+				</section>
+	
+				<section>
+					<h3>THE END</h3>
+					<h1>Thanks you</h1>
+					<h3><a href="mailto:khanh.tran@glandoresystems.com">khanh.tran@glandoresystems.com</a>/ <a href="http://twitter.com/khanhtran">@khanhtran</a></h3>
+				</section>
+		
+				<section>
+					<h1>References</h1>
+					<ul>
+						<li><a href="http://www.slideshare.net/AmazonWebServices/building-powerful-web-applications-in-the-aws-cloud-a-love-story-jinesh-varia">Builing Powerful Web Application in the Cloud: A Love Story</a></li>
+						<li><a href="http://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_web_01.pdf">A sample web application architecture</a></li>
+					</ul>
+				</section>
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				
+				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+				]
+			});
+			
+		</script>
+
+	</body>
+</html>
