@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Khanh subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <outline text="CodeBetter.Com" title="CodeBetter.Com" type="rss"
+            xmlUrl="http://codebetter.com/blogs/MainFeed.aspx" htmlUrl="http://codebetter.com"/>
+        <outline text="Codrops" title="Codrops" type="rss"
+            xmlUrl="http://feeds.feedburner.com/tympanus" htmlUrl="http://tympanus.net/codrops"/>
+        <outline text="developerWorks : Open source : Technical library"
+            title="developerWorks : Open source : Technical library"
+            type="rss"
+            xmlUrl="http://www.ibm.com/developerworks/views/opensource/rss/libraryview.jsp" htmlUrl="http://www.ibm.com/developerworks/"/>
+        <outline text="ebookshare" title="ebookshare" type="rss"
+            xmlUrl="http://www.ebookshare.net/feed/" htmlUrl="http://www.ebookshare.net"/>
+        <outline text="Expert PHP Developer"
+            title="Expert PHP Developer" type="rss"
+            xmlUrl="http://feeds.feedburner.com/xpertdeveloper" htmlUrl="http://www.xpertdeveloper.com"/>
+        <outline text="Sencha Notes" title="Sencha Notes" type="rss"
+            xmlUrl="http://notes.sencha.com/rss" htmlUrl="http://notes.sencha.com/"/>
+        <outline title="aws" text="aws">
+            <outline text="All Things Distributed"
+                title="All Things Distributed" type="rss"
+                xmlUrl="http://www.allthingsdistributed.com/atom.xml" htmlUrl="http://www.allthingsdistributed.com/"/>
+            <outline text="Amazon Web Services Blog"
+                title="Amazon Web Services Blog" type="rss"
+                xmlUrl="http://aws.typepad.com/aws/atom.xml" htmlUrl="http://aws.typepad.com/aws/"/>
+            <outline text="High Scalability" title="High Scalability"
+                type="rss" xmlUrl="http://highscalability.com/rss.xml" htmlUrl="http://highscalability.com/blog/"/>
+        </outline>
+        <outline title="RIAs" text="RIAs">
+            <outline text="Christophe Coenraets"
+                title="Christophe Coenraets" type="rss"
+                xmlUrl="http://coenraets.org/blog/feed/atom/" htmlUrl="http://coenraets.org/blog"/>
+            <outline text="Debuggable.com - Blog"
+                title="Debuggable.com - Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/debuggable" htmlUrl="http://www.debuggable.com/"/>
+            <outline text="Functionn" title="Functionn" type="rss"
+                xmlUrl="http://feeds.feedburner.com/Functionn" htmlUrl="http://functionn.blogspot.com/"/>
+            <outline text="Nettuts+" title="Nettuts+" type="rss"
+                xmlUrl="http://feeds2.feedburner.com/nettuts" htmlUrl="http://net.tutsplus.com"/>
+            <outline text="Ntt.cc" title="Ntt.cc" type="rss"
+                xmlUrl="http://ntt.cc/feed" htmlUrl="http://ntt.cc/"/>
+            <outline text="ProgrammableWeb" title="ProgrammableWeb"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/ProgrammableWeb" htmlUrl="http://blog.programmableweb.com"/>
+            <outline text="Smashing Magazine" title="Smashing Magazine"
+                type="rss"
+                xmlUrl="http://rss1.smashingmagazine.com/feed/" htmlUrl="http://www.smashingmagazine.com/"/>
+            <outline text="Tutorialzine" title="Tutorialzine" type="rss"
+                xmlUrl="http://feeds.feedburner.com/Tutorialzine" htmlUrl="http://tutorialzine.com"/>
+            <outline text="WebResourcesDepot" title="WebResourcesDepot"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/webresourcesdepot" htmlUrl="http://www.webresourcesdepot.com"/>
+        </outline>
+        <outline title="News" text="News">
+            <outline
+                text="Cloud Zone - Everything for Cloud Developers and Decision Makers"
+                title="Cloud Zone - Everything for Cloud Developers and Decision Makers"
+                type="rss" xmlUrl="http://cloud.dzone.com/rss.xml" htmlUrl="http://cloud.dzone.com/"/>
+            <outline text="Code: Flickr Developer Blog"
+                title="Code: Flickr Developer Blog" type="rss"
+                xmlUrl="http://code.flickr.com/blog/feed/" htmlUrl="http://code.flickr.com/blog"/>
+            <outline text="Cube Websites Blog"
+                title="Cube Websites Blog" type="rss"
+                xmlUrl="http://www.cubewebsites.com/blog/feed/" htmlUrl="http://www.cubewebsites.com/blog"/>
+            <outline text="DailyJS: A JavaScript Blog"
+                title="DailyJS: A JavaScript Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/dailyjs" htmlUrl="http://dailyjs.com"/>
+            <outline text="DZone: latest front page"
+                title="DZone: latest front page" type="rss"
+                xmlUrl="http://www.dzone.com/feed/frontpage/rss.xml" htmlUrl="http://www.dzone.com/links/"/>
+            <outline
+                text="InfoQ Personalized Feed for Unregistered User - Registered to upgrade!"
+                title="InfoQ Personalized Feed for Unregistered User - Registered to upgrade!"
+                type="rss"
+                xmlUrl="http://www.infoq.com/rss/rss.action?token=qsRi3h86OUW2B8VqJeNgJUwrXA2W6QLz" htmlUrl="http://www.infoq.com"/>
+            <outline text="Josh Software - Where Programmin..."
+                title="Josh Software - Where Programmin..." type="rss"
+                xmlUrl="http://blog.joshsoftware.com/feed/" htmlUrl="http://blog.joshsoftware.com"/>
+            <outline text="Open Sourcery" title="Open Sourcery"
+                type="rss" xmlUrl="http://jcalcote.wordpress.com/feed/" htmlUrl="http://jcalcote.wordpress.com"/>
+            <outline text="Search Results For: elasticsearch"
+                title="Search Results For: elasticsearch" type="rss"
+                xmlUrl="http://www.dzone.com/links/feed/search/elasticsearch/rss.xml" htmlUrl="http://www.dzone.com/links/search.html?queryelasticsearch"/>
+            <outline
+                text="The Changelog - Open Source moves fast. Keep up."
+                title="The Changelog - Open Source moves fast. Keep up."
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/thechangelog" htmlUrl="http://thechangelog.com/"/>
+            <outline text="webdev360.com" title="webdev360.com"
+                type="rss" xmlUrl="http://webdev360.com/feed/rss" htmlUrl="http://webdev360.com/feed//rss"/>
+        </outline>
+        <outline title="ExtJS" text="ExtJS">
+            <outline text="Blog |   Modus Create"
+                title="Blog |   Modus Create" type="rss"
+                xmlUrl="http://moduscreate.com/blog/feed/" htmlUrl="http://moduscreate.com"/>
+            <outline
+                text="Ext JS Forums - Ext: User Extensions and Plugins"
+                title="Ext JS Forums - Ext: User Extensions and Plugins"
+                type="rss"
+                xmlUrl="http://www.extjs.com/forum/external.php?type=RSS2&amp;forumids=42" htmlUrl="http://www.sencha.com/forum/"/>
+            <outline text="Ext JS Jobs" title="Ext JS Jobs" type="rss"
+                xmlUrl="http://jobs.extjs.com/feeds/rss20" htmlUrl="http://jobs.extjs.com/"/>
+            <outline text="ext4all.com" title="ext4all.com" type="rss"
+                xmlUrl="http://ext4all.com/rss/feed" htmlUrl="http://ext4all.com/"/>
+            <outline text="ExtJS Tutorials" title="ExtJS Tutorials"
+                type="rss"
+                xmlUrl="http://extjs-tutorials.blogspot.com/feeds/posts/default" htmlUrl="http://extjs-tutorials.blogspot.com/"/>
+            <outline text="extjsexamples" title="extjsexamples"
+                type="rss"
+                xmlUrl="http://extjsexamples.blogspot.com/feeds/posts/default" htmlUrl="http://extjsexamples.blogspot.com/"/>
+            <outline text="Loiane Groner" title="Loiane Groner"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/LoianeGroner" htmlUrl="http://loianegroner.com"/>
+            <outline text="rahul's blog" title="rahul's blog" type="rss"
+                xmlUrl="http://www.rahulsingla.com/blogs/rahul/feed" htmlUrl="http://www.rahulsingla.com/blogs/rahul"/>
+            <outline text="Sencha Blog" title="Sencha Blog" type="rss"
+                xmlUrl="http://feeds.feedburner.com/SenchaBlog" htmlUrl="http://www.sencha.com/blog/"/>
+            <outline text="Sencha Forum - Ext: Premium Help"
+                title="Sencha Forum - Ext: Premium Help" type="rss"
+                xmlUrl="http://www.extjs.com/forum/external.php?s=e499a2f15b302cf4d53834a0ce0ad6a9&amp;type=RSS2&amp;forumids=11" htmlUrl="http://www.sencha.com/forum/"/>
+            <outline text="VinylFox" title="VinylFox" type="rss"
+                xmlUrl="http://www.vinylfox.com/feed/" htmlUrl="http://www.vinylfox.com"/>
+            <outline text="www.rannikkohurri.net Blog Feed"
+                title="www.rannikkohurri.net Blog Feed" type="rss"
+                xmlUrl="http://www.rannikkohurri.net/rss/blog" htmlUrl="http://www.rannikkohurri.net/"/>
+        </outline>
+        <outline title="Java" text="Java">
+            <outline text="elasticsearch" title="elasticsearch"
+                type="rss"
+                xmlUrl="http://www.elasticsearch.org/atom.xml" htmlUrl="http://elasticsearch.org/"/>
+            <outline
+                text="HowtoForge - Linux Howtos and Tutorials - Howtos about Linux and Open Source"
+                title="HowtoForge - Linux Howtos and Tutorials - Howtos about Linux and Open Source"
+                type="rss" xmlUrl="http://www.howtoforge.com/feed.rss" htmlUrl="http://www.howtoforge.com"/>
+            <outline text="KnowFree.net Feed Update"
+                title="KnowFree.net Feed Update" type="rss"
+                xmlUrl="http://feeds.feedburner.com/knowfree" htmlUrl="http://knowfree.net"/>
+            <outline text="PDF CHM Books Catalogue"
+                title="PDF CHM Books Catalogue" type="rss"
+                xmlUrl="http://feeds.pdfchm.com/pdfchm?format=xml" htmlUrl="http://www.pdfchm.net/"/>
+        </outline>
+    </body>
+</opml>
