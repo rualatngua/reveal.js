@@ -42,34 +42,137 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Amazon Web Service Cloud</h1>
-					<h3>Web developer fall in love the Cloud</h3>
+					<h1><q>Think Different!</q></h1>
+					<h1>Think Cloud!</h1>
 					<br/>
-					<p><a href="mailto:khanh.tran@glandoresystems.com">khanh.tran@glandoresystems.com</a>/ <a href="http://twitter.com/khanhtran">@khanhtran</a></p>
+					<p><a href="mailto:khanh.tran@glandoresystems.com">khanh.tran@glandoresystems.com</a> / <a href="http://twitter.com/khanhtran">@khanhtran</a></p>
 				</section>
 				
 				<section>
 					<h2>Agenda</h2>
-					<ol>
-						<li><strong>Amazon S3</strong> - Scalable Storage in the Cloud</li>
-						<li><strong>Amazon EC2</strong> - Virtual Servers in the Cloud</li>
-						<li><strong>Amazon CloudFront</strong> - Global Content Distribution Network (CDN)</li>
-						<li><strong>Amazon ElastiCache</strong> - In-Memory Caching Service</li>
-						<li><strong>Amazon SES, SQS, SNS</strong> - Application services</li>
-						<!--
-						<li><strong>Elastic Load Balancing</strong> - Auto Scaling</li>
-						<li><strong>Amazon Route 53</strong> - Scalable Domain Name System (DNS)</li>-->
-						<li><strong>Question & Answers</strong></li>
-					</ol>
+					<ul>
+						<li class="fragment">Traditional Web application Architecture</li>
+						<li class="fragment">What is my dream?</li>
+						<li class="fragment">What are problems?</li>
+						<li class="fragment">What are solutions?</li>
+						<li class="fragment">Amazon S3</li>
+						<li class="fragment">Amazon EC2</li>
+						<li class="fragment">Amazon CloudFront</li>
+						<li class="fragment">Other services: ElasticCache, SES, SQS, SNS</li>
+						<li class="fragment"><strong>Question & Answers</strong></li>
+					</ul>
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you run the speaker notes server.
 					</aside>
 				</section>
 				
 				<section>
-					<p><q cite="http://www.slideshare.net/AmazonWebServices/building-powerful-web-applications-in-the-aws-cloud-a-love-story-jinesh-varia">Design for failure and nothing will fail</q></p>
+					<section>
+						<h2>Traditional Architecture</h2>
+						<p>Which services are served by a server?</p>
+						<table cellspacing="5" cellpadding="5">
+							<tr>
+								<td>
+									<ul>
+										<li class="fragment">Static Files</li>
+										<li class="fragment">Web service</li>
+										<li class="fragment">Email Service</li>
+										<li class="fragment">Files Storage</li>
+										<li class="fragment">Database</li>
+										<li class="fragment">Logging</li>
+										<li class="fragment">Caching</li>
+										<li class="fragment">Searching</li>
+									</ul>
+								</td>
+								<td>
+									<a href="#" class="image fragment"><img src="images/traditional-architecture.png" /></a>
+								</td>
+							</tr>
+						</table>
+					</section>
+					<section data-state="soothe">
+						<h2>What is my dream?</h2>
+						    <ul>
+						        <li class="fragment">Handle large amount of traffic</li>
+						        <li class="fragment">High Availability</li>
+						        <li class="fragment">Good response times</li>
+						        <li style="visibility: hidden;">&nbsp;</li>
+						        <li style="visibility: hidden;">&nbsp;</li>
+						        <li style="visibility: hidden;">&nbsp;</li>
+						    </ul>
+						    <img height="300px" src="images/smile.jpg" />
+					</section>
+					<section data-state="alert">
+						<h2>What are problems?</h2>
+						<ul>
+	                        <li class="fragment">Crash HDD</li>
+	                        <li class="fragment">Not enough space</li>
+	                        <li class="fragment">Overload</li>
+	                        <li class="fragment">Bottle neck</li>
+	                        <li class="fragment">DDOS</li>
+	                        <li class="fragment">Earthquake&nbsp;&nbsp;</li>
+	                    </ul>
+					    <img src="images/angry.png" />
+					</section>
+	
+					<section>
+						<h2>Thinking...!</h2>
+					    <img height="300px" src="images/solutions.png" />
+					</section>
+	
+					<section data-state="blackout"">
+						<h2>What are solutions? (1/4)</h2>
+						<table cellspacing="5" cellpadding="5">
+							<tr>
+								<td>
+									<ul>
+				                        <li id="p1" class="">Crash HDD</li>
+				                        <li id="p2" class="">Not enough space</li>
+				                        <li id="p3" class="">Overload</li>
+				                        <li id="p4" class="">Bottle neck</li>
+				                        <li id="p5" class="">DDOS</li>
+				                        <li id="p6" class="">Earthquake&nbsp;&nbsp;</li>
+				                    </ul>
+								</td>
+								<td>
+									<ul>
+				                        <li data-hide="p1" class="fragment">xxxly Backup</li>
+				                        <li data-hide="p2" class="fragment">Add more Hdd/CPU/RAM</li>
+				                        <li data-hide="p3" class="fragment">Load balancing</li>
+				                        <li data-hide="p4" class="fragment">Replication DB</li>
+				                        <li data-hide="p5" class="fragment">Proxy Server</li>
+				                        <li data-hide="p6" class="fragment">Duplicate to another Data Center</li>
+				                    </ul>
+								</td>
+							</tr>
+						</table>
+					</section>
+					<section data-state="soothe">
+						<h2> What are solutions? (2/4)</h2>
+					    <img class="fragment" height="300px" src="images/rubber-band.jpg" />
+						<h2 class="fragment">Scaling!</h2>
+						<h2 class="fragment"><strong>Scaling!</strong></h2>
+						<h2 class="fragment"><i>Scaling! </i></h2>
+					</section>
+
+					<section>
+						<h3>What are solutions? (3/4)</h3>
+						<p>But wait! How does Apple make an iPhone?</p>
+						<a class="image fragment" href="images/cost-iphone.jpg"><img height="400px" src="images/cost-iphone.jpg"/></a>
+						<h2 class="fragment" data-state="soothe" style="color: yellow;">Outsourcing!</h2>
+					</section>
+	
+					<section data-state="blackout" >
+						<h3>What are solutions? (4/4)</h3>
+						<h2 class="fragment" style="color: green;">Outsourcing!</h2>
+						<h2 class="fragment" >+</h2>
+						<h2 class="fragment" style="color: green;" >Scaling</h2>
+						<h2 class="fragment" >=</h2>
+						<h2 class="fragment" style="color: yellow;" >Cloud</h2>
+						<p class="fragment" ><q cite="http://www.slideshare.net/AmazonWebServices/building-powerful-web-applications-in-the-aws-cloud-a-love-story-jinesh-varia">Design for failure and nothing will fail</q></p>
+					</section>
 				</section>
-					
+				
 				<!-- Aamazon S3 -->
 				<section>
 					<section>
@@ -266,6 +369,7 @@
 			
 		</div>
 
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
 
@@ -294,5 +398,6 @@
 			
 		</script>
 
+		<script type="text/javascript" src="js/my.js"></script>
 	</body>
 </html>
