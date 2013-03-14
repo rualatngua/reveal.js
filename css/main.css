@@ -909,3 +909,23 @@ body {
 	display: none;
 }
 
+/*********************************************
+ * CORLOFUL
+ *********************************************/
+.reveal .cyan {
+	color: cyan;
+}
+
+.reveal .lime {
+	color: mediumspringgreen;
+}
+
+.reveal .yellow {
+	color: lightyellow;
+}
+.reveal .red {
+	color: red;
+}
+.reveal .green {
+	color: green;
+}
